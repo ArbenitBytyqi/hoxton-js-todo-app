@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.app {
+    border: solid 1px grey;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 300px;
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-bottom: solid 1px black;
+    padding-bottom: 0.5rem;
+}
+
+.todo {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: dotted 2px black;
+}
+
+button {
+    all: unset;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.todo-completed {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: dotted 2px black;
+}
